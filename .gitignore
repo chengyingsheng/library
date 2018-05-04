@@ -1,0 +1,13 @@
+.svn/
+target/
+bin/
+.idea/
+logs/
+*.bak
+*.iml
+*.versionsBackup
+.DS_Store
+.project
+.settings
+.classpath
+!/corm/src/main/java/com/ziroom/bsrd/corm/opt/Page.java
