@@ -15,7 +15,6 @@
         <module>validator</module>
         <module>http-client</module>
         <module>security</module>
-        <module>techplatform</module>
         <module>datatimes</module>
         <module>dbrunner</module>
     </modules>
