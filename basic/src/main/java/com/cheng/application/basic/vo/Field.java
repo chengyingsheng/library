@@ -1,10 +1,12 @@
 package com.cheng.application.basic.vo;
 
+import java.io.Serializable;
+
 /**
  * 字段
  * Created by cheshun on 17/8/27.
  */
-public class Field {
+public class Field implements Serializable {
 
     /**
      * 字段名

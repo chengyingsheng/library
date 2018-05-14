@@ -2,6 +2,7 @@ package com.cheng.application.basic.vo;
 
 import com.google.common.collect.Lists;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
@@ -9,7 +10,7 @@ import java.util.List;
  * 条件
  * Created by cheshun on 2016/5/15.
  */
-public class Condition {
+public class Condition implements Serializable {
 
     /**
      * 运算符

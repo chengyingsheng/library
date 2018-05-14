@@ -1,12 +1,14 @@
 package com.cheng.application.basic.vo;
 
+import java.io.Serializable;
+
 /**
  * 分页参数类（for BootStrap Table）
  *
  * @author fengshuonan
  * @date 2017年1月21日 下午2:21:35
  */
-public class PageBT {
+public class PageBT implements Serializable {
 
     private int limit;        // 每页显示个数
 

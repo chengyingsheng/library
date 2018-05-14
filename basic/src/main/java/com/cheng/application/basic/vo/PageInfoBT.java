@@ -1,6 +1,7 @@
 package com.cheng.application.basic.vo;
 
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -9,7 +10,7 @@ import java.util.List;
  * @author fengshuonan
  * @Date 2017年1月22日 下午11:06:41
  */
-public class PageInfoBT<T> {
+public class PageInfoBT<T> implements Serializable {
 
     // 结果集
     private List<T> rows;

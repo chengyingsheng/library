@@ -1,13 +1,15 @@
 package com.cheng.application.basic.vo;
 
 
+import java.io.Serializable;
+
 /**
  * 分页工具类
  *
  * @author liwei
  *         Created by homelink on 2017/11/9 0009.
  */
-public class Pageable {
+public class Pageable implements Serializable {
     /**
      * 每页条数
      */

@@ -1,10 +1,12 @@
 package com.cheng.application.basic.vo;
 
+import java.io.Serializable;
+
 /**
  * Skip
  * Created by cheshun on 2016/5/20.
  */
-public class Skipped {
+public class Skipped implements Serializable {
 
     public static final int DEFAULT_COUNT = 20;
     public static final int MAX_COUNT = 1000;

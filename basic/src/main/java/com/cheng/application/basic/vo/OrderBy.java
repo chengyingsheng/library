@@ -1,10 +1,12 @@
 package com.cheng.application.basic.vo;
 
+import java.io.Serializable;
+
 /**
  * 排序
  * Created by cheshun on 2016/5/16.
  */
-public class OrderBy {
+public class OrderBy implements Serializable {
 
     /**
      * 方向

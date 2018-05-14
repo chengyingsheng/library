@@ -3,6 +3,8 @@ package com.cheng.application.basic.vo;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 /**
  * jquery ztree 插件的节点
  *
@@ -10,7 +12,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class ZTreeNode {
+public class ZTreeNode implements Serializable {
 
     private Integer id;    //节点id
 

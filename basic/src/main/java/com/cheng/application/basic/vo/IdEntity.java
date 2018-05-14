@@ -3,13 +3,14 @@ package com.cheng.application.basic.vo;
 
 import com.cheng.application.basic.annotation.Column;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  * Entity -ID
  * Created by cheshun on 2016/5/16.
  */
-public abstract class IdEntity {
+public abstract class IdEntity implements Serializable {
 
     /**
      * "ID" 属性名称
